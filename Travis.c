@@ -3,15 +3,15 @@
 
 int main()
 {
-  int a[100],i,j,n,REcount=0,FEcount=0,level=0;
-  printf("Enter the no. of samples :");
-  scanf("%d",&n);
+  int a[5]={1,0,0,1,0},i,j,n=5,REcount=0,FEcount=0,level=0;
+  //printf("Enter the no. of samples :");
+  //scanf("%d",&n);
   printf("Enter the samples :");
-  for(i=0;i<n;i++)
+  /*for(i=0;i<n;i++)
   {
 
       scanf("%d",&a[i]);
-  }
+  }*/
   /*for(i=0;i<n;i++)
     printf("%d ",a[i]);*/
 
